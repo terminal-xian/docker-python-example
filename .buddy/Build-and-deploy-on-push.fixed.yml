@@ -24,3 +24,8 @@
     type: DOCKERFILE
     dockerfile_path: ""
     do_not_prune_images: true
+  - action: Send email
+    type: EMAIL
+    title: "$BUDDY_PIPELINE_NAME execution #$BUDDY_RUN_ID"
+    content: TESTING 1 2 3
+    recipients: reneeholzknecht@gmail.com
