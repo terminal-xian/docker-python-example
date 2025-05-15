@@ -23,8 +23,10 @@
   - action: Build Docker image
     type: DOCKERFILE
     integration: docker_hub
+    docker_image_tag: latest
     dockerfile_path: ""
     docker_registry: DOCKER_HUB
+    repository: terminalxian
     do_not_prune_images: true
     ignore_errors: true
   - action: Send email
