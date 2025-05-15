@@ -26,7 +26,7 @@
     docker_image_tag: latest
     dockerfile_path: ""
     docker_registry: DOCKER_HUB
-    repository: terminalxian
+    repository: terminalxian/helloworld
     do_not_prune_images: true
     ignore_errors: true
   - action: Send email
